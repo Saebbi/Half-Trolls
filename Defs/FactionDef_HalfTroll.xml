@@ -21,7 +21,7 @@
 	<canSiege>false</canSiege>
 	<canStageAttacks>false</canStageAttacks>
 	<leaderTitle>Captain</leaderTitle>
-	<expandingIconTexture>HalfTrollFaction</expandingIconTexture>
+	<expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>
 	<startingGoodwill>
 	  <min>-90</min>
 	  <max>30</max>
@@ -56,7 +56,7 @@
         </options>
       </li>
 	</pawnGroupMakers>
-	<homeIconPath>HalfTrollFaction</homeIconPath>
+	<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
   
   
