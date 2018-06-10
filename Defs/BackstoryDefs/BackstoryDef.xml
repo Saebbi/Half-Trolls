@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AlienRace.BackstoryDef Name="POTA_BG_Base" Abstract="True">
+    <spawnCategories>
+      <li>HalfTroll_Backstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <AlienRace.BackstoryDef>
+    <defName>HalfTroll_Backstory_Child</defName>
+	<title>Half Troll Child</title>
+	<baseDescription>NAME is a Half Troll, a descendant of a Crossbreed of Orcs and Trolls, receving the best traits of both.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	  <li>
+	    <defName>Melee</defName>
+		<amount>5</amount>
+	  </li>
+	  <li>
+	    <defName>Shooting</defName>
+		<amount>3</amount>
+	  </li>
+	</skillGains>
+	<disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>Prosthophile</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+    </disallowedTraits>
+	<spawnCategories>
+	  <li>HalfTroll_Backstory</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HalfTroll_Backstory_AdultChef</defName>
+	<title>Half Troll Chef</title>
+	<baseDescription>NAME is a grown Half Troll. As a Chef, NAME has a special role in Half-Troll society. Mainly because it doesn't only revolve around killing.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	  <li>
+	    <defName>Melee</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+	    <defName>Cooking</defName>
+		<amount>5</amount>
+	  </li>
+	  <li>
+	    <defName>Social</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+	    <defName>Intellectual</defName>
+		<amount>-4</amount>
+	  </li>
+	</skillGains>
+	<disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>Prosthophile</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+    </disallowedTraits>
+	<linkedBackstory>HalfTroll_Backstory_Child</linkedBackstory>
+	<spawnCategories>
+	  <li>HalfTroll_Backstory</li>
+	</spawnCategories>
+	<bioAgeRange>
+        <min>18</min>
+        <max>120</max>
+    </bioAgeRange>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HalfTroll_Backstory_AdultWarrior</defName>
+	<title>Half Troll Warrior</title>
+	<baseDescription>NAME is a grown Half Troll. Powerful, but not smart.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	  <li>
+	    <defName>Melee</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+	    <defName>Shooting</defName>
+		<amount>3</amount>
+	  </li>
+	  <li>
+	    <defName>Social</defName>
+		<amount>-5</amount>
+	  </li>
+	  <li>
+	    <defName>Intellectual</defName>
+		<amount>-5</amount>
+	  </li>
+	</skillGains>
+	<disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>Prosthophile</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+    </disallowedTraits>
+	<linkedBackstory>HalfTroll_Backstory_Child</linkedBackstory>
+	<spawnCategories>
+	  <li>HalfTroll_Backstory</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HalfTroll_Backstory_AdultPsychopath</defName>
+	<title>Half Troll Psychopath</title>
+	<baseDescription>NAME is a Psychopath, even after Half-Troll standards. Feared, but also respected bis HIS fellow Half-Trolls.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	  <li>
+	    <defName>Melee</defName>
+		<amount>8</amount>
+	  </li>
+	  <li>
+	    <defName>Shooting</defName>
+		<amount>6</amount>
+	  </li>
+	  <li>
+	    <defName>Social</defName>
+		<amount>-10</amount>
+	  </li>
+	  <li>
+	    <defName>Intellectual</defName>
+		<amount>-5</amount>
+	  </li>
+	</skillGains>
+	<disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>Prosthophile</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+    </disallowedTraits>
+	<linkedBackstory>HalfTroll_Backstory_Child</linkedBackstory>
+	<spawnCategories>
+	  <li>HalfTroll_Backstory</li>
+	</spawnCategories>
+    <forcedTraits>
+	  <li>
+	    <defName>Psychopath</defName>
+	  </li>
+	  <li>
+	    <defName>Bloodlust</defName>
+	  </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HalfTroll_Backstory_Adult</defName>
+	<title>Half Troll Genius</title>
+	<baseDescription>NAME is a Half Troll, but one of the few who were born to lead their kin. HE can also be quite persuasive, as he understands the mind and how to manipulate others.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	  <li>
+	    <defName>Melee</defName>
+		<amount>6</amount>
+	  </li>
+	  <li>
+	    <defName>Shooting</defName>
+		<amount>6</amount>
+	  </li>
+	  <li>
+	    <defName>Crafting</defName>
+		<amount>6</amount>
+	  </li>
+	  <li>
+	    <defName>Mining</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+	    <defName>Social</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+	    <defName>Intellectual</defName>
+		<amount>3</amount>
+	  </li>
+	</skillGains>
+	<disallowedTraits>
+      <li>
+        <defName>Prosthophile</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+    </disallowedTraits>
+	<linkedBackstory>HalfTroll_Backstory_Child</linkedBackstory>
+	<spawnCategories>
+	  <li>HalfTroll_Backstory</li>
+	</spawnCategories>
+	<bioAgeRange>
+        <min>120</min>
+        <max>800</max>
+    </bioAgeRange>
+  </AlienRace.BackstoryDef>
+  
+  
+</Defs>

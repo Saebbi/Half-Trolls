@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+		<defName>Half-Trolls</defName>
+		<label>half-troll tribe</label>
+	<description>Half-Troll</description>
+	<pawnsPlural>half-trolls</pawnsPlural>
+	<baseSelectionWeight>1</baseSelectionWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<rescueesCanJoin>true</rescueesCanJoin>
+	<canMakeRandomly>true</canMakeRandomly>
+		<raidCommonalityFromPointsCurve>
+		  <points>
+		    <li>(40, 3)</li>
+			<li>(150, 2)</li>
+			<li>(500, 1)</li>
+			<li>(800, .25)</li>
+		  </points>
+		</raidCommonalityFromPointsCurve>
+	<canSiege>false</canSiege>
+	<canStageAttacks>false</canStageAttacks>
+	<leaderTitle>Captain</leaderTitle>
+	<expandingIconTexture>World/WorldObjects/DefaultFactionBase</expandingIconTexture>
+	<startingGoodwill>
+	  <min>-100</min>
+	  <max>-50</max>
+	</startingGoodwill>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
+	<pawnNameMaker>NamerHalfTroll</pawnNameMaker>
+	<techLevel>Medieval</techLevel>
+	<backstoryCategory>HalfTroll_Backstory</backstoryCategory>
+	<mustStartOneEnemy>true</mustStartOneEnemy>
+	<autoFlee>false</autoFlee>
+	<humanlikeFaction>true</humanlikeFaction>
+	<naturalColonyGoodwill>
+		<min>-100</min>
+		<max>10</max>
+	</naturalColonyGoodwill>
+	<allowedArrivalTemperatureRange>
+		<min>-60</min>
+		<max>80</max>
+	</allowedArrivalTemperatureRange>
+	<pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <HalfTroll_Warrior>160</HalfTroll_Warrior>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <HalfTroll_Warrior>160</HalfTroll_Warrior>
+        </options>
+      </li>
+	</pawnGroupMakers>
+	<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+  </FactionDef>
+  
+  
+</Defs>

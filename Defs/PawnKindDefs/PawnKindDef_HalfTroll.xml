@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  
+  <PawnKindDef Name="Base_HalfTrollRace" Abstract="True">
+    <defaultFactionType>Half-Trolls</defaultFactionType>
+    <race>HalfTroll_Race</race>
+    <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+    <apparelAllowHeadwearChance>.5</apparelAllowHeadwearChance>
+	<invNutrition>2.55</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+  </PawnKindDef>
+
+  <PawnKindDef Name="Base_HalfTroll" ParentName="Base_HalfTrollRace" Abstract="True">
+    <label>half troll</label>
+    <combatPower>295</combatPower>
+    <aiAvoidCover>true</aiAvoidCover>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="Base_HalfTroll">
+    <defName>HalfTroll_Warrior</defName>
+    <label>half troll warrior</label>
+    <backstoryCategory>HalfTroll_Backstory</backstoryCategory>
+	<gearHealthRange>
+		<min>0.5</min>
+		<max>1.9</max>
+	</gearHealthRange>
+    <weaponMoney>
+		<min>250</min>
+		<max>700</max>
+    </weaponMoney>
+    <weaponTags>
+		<li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <apparelMoney>
+		<min>150</min>
+		<max>500</max>
+    </apparelMoney>
+	<apparelTags>
+		<li>Tribal</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+  	<PawnKindDef ParentName="Base_HalfTroll">
+		<defName>HalfTroll_Chief</defName>
+		<label>chief</label>
+		<backstoryCategory>HalfTroll_Backstory</backstoryCategory>
+    <combatPower>300</combatPower>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <minGenerationAge>300</minGenerationAge>
+    <factionLeader>true</factionLeader>
+	</PawnKindDef>
+  
+</Defs>
